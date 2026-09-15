@@ -24,7 +24,7 @@ The source is available, but the simulation cannot currently run end to end from
 1. The original CoppeliaSim scene with `Revolute_joint_1` through `Revolute_joint_7`.
 2. `mask_q_DH2Jaco.m`, called by both main functions to convert coordinate conventions. An identity mapping would not be a valid substitute.
 3. Compatible legacy Remote API bindings: `remApi.m`, `remoteApiProto.m` and the platform library.
-4. A MATLAB installation. MATLAB/Octave execution was not available during this audit.
+4. A MATLAB installation. The code has not been rerun in MATLAB or Octave.
 
 See [the recovery and setup guide](docs/setup.md). This is a simulated trajectory experiment; it does not establish surgical accuracy or suitability for a real robot.
 
